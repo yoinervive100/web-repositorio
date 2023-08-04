@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+p{
+    cursor: pointer;
+}
+.menu__principal{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.menu__class{
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 30px; 
+    gap: 15px;
+}
+.picture__img{
+    display: flex;
+    margin-top: 8px;
+}
+.contenido__menu{
+display: flex;
+align-items: center;
+padding-left: 2%;
+cursor: pointer;
+
+}
+.contenido--activo{
+    color: darkgrey;
+}
+.img__icon{
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 6px;
+    cursor: pointer;
+}
+.contenido__company, .contenido__about{
+    padding-left: 2%;
+}
+.menu__registro{
+  position: absolute;
+  right: 120px;
+  padding-top: 2px;
+  display: flex;
+  align-items: center;
+}
+.menu__regis{
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+.btn--active{
+  height: 35px;
+  width: 110px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.mover{
+    text-align: center;
+    margin-top: 7px;
+}
+.mover--active{
+   text-align: center;
+}
+.menu__button{
+    display: none;
+}
+.img__present{
+   height: 450px;
+   max-width: 1200px;
+}
+.proyecto__empresarial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.proyecto__contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h1{
+    font-size: 60px;
+}
+.super__button p{
+   text-align: center;
+   padding-top: 6px;
+}
+.super__buton{
+    height: 35px;
+    width: 110px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.proyecto__img{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.img__presentacion{
+    padding-left: 50px;
+}
+.sub__menu{
+    display: none;
+    align-items: center;
+}
+.sub__contenido{
+    background-color:rgb(227, 231, 235);
+    border-radius: 10px;
+    height: 120px;
+    width: 123px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 10%;
+    left: 120px;
+}
+a{
+    padding-left: 8px;
+    color: black
+}
+.img__sub{
+   padding-top: 2px;
+}
+.img--x{
+    padding-left: 15px;
+}
+.sub__mo{
+    text-align: center;
+    padding-top: 2px;
+}
+.sub__conten{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 280px;
+    background-color:rgb(227, 231, 235);
+    border-radius: 10px;
+    height: 80px;
+    width: 90px;
+    gap: 3px;
+}
+.sub__conten a{
+    padding-top: 3px;
+    padding-left: 9px;
+}
+.remove{
+    display: flex;
+}
+@media(max-width:829px){
+ .menu__regis{
+    display: none;
+ }
+ .menu__button{
+    display: flex;
+    position: absolute;
+    right: -90px;
+    cursor: pointer;
+ }
+ .proyecto__empresarial{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+ }
+ .img__presentacion{
+    order: -1;
+ }
+ h1{
+    font-size: 40px;
+    padding-left: 10px;
+    
+ }
+ .super__button{
+    display: flex;
+    justify-content: center;
+ }
+ .img__present{
+    width: 390px;
+ }
+.menu__class{
+    display: none;
+    flex-direction: column;
+    gap: 2px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background-color: aquamarine;
+    height: 60%;
+    width: 190px;
+}
+.contenido__menu,.contenido__about,.contenido__company{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.sub__menu,.sub__conten{
+    display: none;
+}
+.remo{
+    display: flex;
+}
+}
+@media(max-width:320px){
+ .menu__button{
+   text-align: end;
+   margin-right: -10px;
+ } 
+ .menu__class{
+    margin-right: -10px;
+ }
+ h1{
+    font-size: 30px;
+ }
+ .descripcion__pro{
+  padding-left: 10px;
+ }
+ .super__button{
+    padding-left: 10px;
+ }
+ .proyecto__img {
+    display: flex;
+    padding-left: 20px;
+ }
+ .proyecto__img img{
+    height: 16px;
+ }
+ .img__presentacion{
+    padding-left: 1px;
+ }
+ .img__present{
+    height: 280px;
+    width: 280px;
+ }
+ .descripcion__pro p{
+    font-size: 13px;
+ }
+}
